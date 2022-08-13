@@ -16,7 +16,7 @@ vlndf<- function(df){
 }
 
 
-#Converts Dataframe for IPA input
+#Converts Dataframe to IPA input
 de2IPA<-function(csvResultFile){
   library(DescTools)
   df<-read.csv(csvResultFile,header=T)
